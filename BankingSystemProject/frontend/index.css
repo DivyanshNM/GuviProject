@@ -1,0 +1,21 @@
+.topmost {
+    /* border: 2px solid black; */
+    font-size: 90px;
+    padding-top: 0; /* Removes any extra padding */
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+}
+.topmost h6 {
+    margin: 0;
+    padding: 0;
+    
+}
+.shorttop{
+    /* border: 2px solid black; */
+    font-size: medium;
+    width: fit-content;
+    margin-left: 920px;
+    height: fit-content;
+}
+
