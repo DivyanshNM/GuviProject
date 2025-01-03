@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdf4ee;
+  }
+  
+  /* navbar css starts here */
+  .bg-light {
+    background-color: #f8e6e3!important;
+  }
+  
+  .navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #7f7f7f!important;
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: #4e99df!important;
+  }
+  
+  .nav-link {
+    color: #7f7f7f!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #f3f1f1;
+    color: #4e99df!important;
+  }
+  
+  /* navbar css ends here */
+  
+  .my-info {
+    padding: 2rem 5rem;
+  }
+  
+  .btn-info {
+    padding: 1rem 1.2rem;
+    background-color: #4e99df!important;
+    color: #fff!important;
+    margin-left: 5px;
+    transition: all 0.3s;
+    border-radius: 0.3rem;
+  }
+  
+  .btn-info:hover {
+    background-color: #4353e6!important;
+    transform: scale(1.1);
+  }
+  
+  /* Animation for button hover */
+  @keyframes buttonScale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .btn-info:hover {
+    animation: buttonScale 0.5s ease-in-out infinite;
+  }
+  
+  /* Animation for fading in content */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .my-info {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
